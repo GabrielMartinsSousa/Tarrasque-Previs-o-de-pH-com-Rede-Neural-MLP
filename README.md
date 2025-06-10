@@ -133,11 +133,11 @@ O Notebook com os códigos para execução da Rede Neural estão armazenados nes
 #### Para o Projeto:
 * Gabriel Martins: .
 * Clara Lelis: .
-* Yasmin Shimizu: .
+* Yasmin Shimizu: adaptação da rede MLP para $n$ camadas, implementação da validação, plot gráfico de resultados.
 
 #### Para o Repositório GitHub:
-* Gabrel Martins: .
-* Clara Lelis: .
-* Yasmin Shimizu: .
+* Gabrel Martins: Edição do README e upload de arquivos.
+* Clara Lelis: Edição do README.
+* Yasmin Shimizu: Edição do README.
 
 **Orientação e Revisão:** Prof. Dr. Daniel R. Cassar.
