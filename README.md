@@ -1,11 +1,3 @@
-# Tarrasque - Previsão de pH com Rede Neural MLP
-Amanhã farei esta bomba
-
-
-Coloque na descrição: Previsão do pH de água com uma rede neural MLP a partir de dados da concentração de soluto dissolvido nas amostras. com PyTorchTrabalho final da disciplina ATP-303 - Redes Neurais e Algoritmos Genéticos, ministrada pelo Prof. Dr. Daniel R. Cassar na Ilum Escola de Ciência.
-
-
-
 <h1 align='center'> Clareyamar X Tarrasque - Previsão do pH de amostras de água </h1>
 <h3 align="center"><i>Inluminans Ignotus</i></h3>
 
@@ -29,15 +21,33 @@ Separamos os dados em treino e teste, para verificar a performance do modelo que
 
 ## 🖇️Recursos Utilizados
 
+<img src="https://github.com/user-attachments/assets/78c00970-b717-4c28-b086-a4b73a294a27" alt="Texto Alternativo" width="100">
+
+<img src="https://github.com/user-attachments/assets/ad7a787e-678e-45a2-ac94-f045bc68990b" alt="Texto Alternativo" width="100">
+
+<img src="https://github.com/user-attachments/assets/26e144d6-9a5d-4f45-a880-15a0d093f7d5" alt="Texto Alternativo" width="150">
+
+<img src="https://github.com/GabrielMartinsSousa/Projeto_PCD_Climogramas/assets/172425313/dd5953d4-0b62-467b-85ed-9a992d6c1511" alt="Texto Alternativo" width="101">
+
+<img src="https://github.com/GabrielMartinsSousa/Projeto_PCD_Climogramas/assets/172425313/025152bd-de97-420c-8a96-bf4d675bea31" alt="Texto Alternativo" width="101">
+
+<img src="https://github.com/GabrielMartinsSousa/Projeto_PCD_Climogramas/assets/172425313/314dcd00-784b-4f40-b361-a46329aad30e" alt="Texto Alternativo" width="145">
+
+<img src="https://github.com/user-attachments/assets/379bd928-e479-427d-8d49-651a65dc1315" alt="Texto Alternativo" width="195">
+
+<img src="https://github.com/user-attachments/assets/ac550461-c75f-40aa-ba05-6c9189de6825" alt="Texto Alternativo" width="103">
+
 ## 💧Data Set
 
-O dataset usado no projeto foi obtido na plataforma *Kaggle*, um site de hospedagem de diversos datasets muito utilizado para obter dados para o treinamento de modelos de Machine Learning (ML). Os dados foram coletados do Telangana Open Data portal, do estado de Telangana, na India. Esses dados contêm amostras de água testadas de vários distritos. O conjunto que utilizamos é referente ao ano de 2018, e contém 26 colunas, como: número de série (sno), Distrito, Vila, Latitude, Longitude, Produtos Químicos (como Ca, Mg, CO3 etc.), Dureza total da água, Total de sólidos dissolvidos, e as variáveis-alvo do dataset 'Classificação' e 'Classificação1'. Para a nossa aplicação de previsão do pH, iremos utilizar apenas as colunas de: TDS, CO3, HCO3, Cl, F, NO3, SO4, Na, K, Ca, Mg, RSC  meq  / L e pH.
+Utilizamos no projeto o dataset Water Quality Data [Telangana Groundwater], obtido na plataforma *Kaggle*, um site de hospedagem de diversos datasets muito utilizado para obter dados para o treinamento de modelos de Machine Learning (ML). Os dados foram coletados do Telangana Open Data portal, do estado de Telangana, na India. Esses dados contêm amostras de água testadas de vários distritos. O conjunto que utilizamos é referente ao ano de 2018, e contém 26 colunas, como: número de série (sno), Distrito, Vila, Latitude, Longitude, Produtos Químicos (como Ca, Mg, CO3 etc.), Dureza total da água, Total de sólidos dissolvidos, e as variáveis-alvo do dataset 'Classificação' e 'Classificação1'. Para a nossa aplicação de previsão do pH, iremos utilizar apenas as colunas de: TDS, CO3, HCO3, Cl, F, NO3, SO4, Na, K, Ca, Mg, RSC  meq  / L e pH. É possível acessar a página do dataset no Kaggle [aqui](https://www.kaggle.com/datasets/sivapriyagarladinne/telangana-post-monsoon-ground-water-quality-data)
 
 ## ⚙️Redes Neurais MLP
 
 ## 🔢 Resultados
 
 ## 📔Acesso ao projeto
+
+O Notebook com os códigos para execução da Rede Neural estão armazenados nesse repositório e podem ser rodados em compiladores de Python como Jupyter Notebook, Visual Studio Code e Google Colab. Tanto a tabela de dados utilizados quanto o link para o site de armazenamento do dataset estão também neste repositório, basta fazer o download dos dados.
 
 ## 🗂️ Referências 
 
