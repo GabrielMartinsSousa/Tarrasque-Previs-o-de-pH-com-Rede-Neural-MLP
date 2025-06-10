@@ -50,7 +50,7 @@ Os arquivos presentes nesse repositório são:
 
 * <code>título do jupyter</code>:
 * <code>título do dataset </code>:
-* <code>README</code>: descrição geral do projeto
+* <code>README.md</code>: descrição geral do projeto.
 
 O Notebook com os códigos para execução da Rede Neural estão armazenados nesse repositório e podem ser rodados em compiladores de Python como Jupyter Notebook, Visual Studio Code e Google Colab. Tanto a tabela de dados utilizados quanto o link para o site de armazenamento do dataset estão também neste repositório, basta fazer o download dos dados.
 
@@ -131,13 +131,13 @@ O Notebook com os códigos para execução da Rede Neural estão armazenados nes
 
 
 #### Para o Projeto:
-* Gabriel Martins: .
-* Clara Lelis: .
-* Yasmin Shimizu: adaptação da rede MLP para $n$ camadas, implementação da validação, plot gráfico de resultados.
+* Gabriel Martins: (*Importação do dataset, tratamento de dados, ?implementação de early stopping e dropout?, treinamento e previsão da rede*).
+* Clara Lelis: (*Otimização de hiperparâmetros com optuna, treinamento e previsão da rede*).
+* Yasmin Shimizu: Adaptação da rede MLP para $n$ camadas, implementação da validação, (*treinamento e previsão da rede*), plot gráfico de resultados.
 
 #### Para o Repositório GitHub:
-* Gabrel Martins: Edição do README e upload de arquivos.
-* Clara Lelis: Edição do README.
-* Yasmin Shimizu: Edição do README.
+* Gabrel Martins: Documentação do README e upload de arquivos.
+* Clara Lelis: Documentação do README.
+* Yasmin Shimizu: Documentação do README.
 
 **Orientação e Revisão:** Prof. Dr. Daniel R. Cassar.
