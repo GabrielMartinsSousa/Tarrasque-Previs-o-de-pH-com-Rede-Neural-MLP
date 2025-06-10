@@ -1,4 +1,4 @@
-# Tarrasque Previsão de pH com Rede Neural MLP
+# Tarrasque - Previsão de pH com Rede Neural MLP
 Amanhã farei esta bomba
 
 
@@ -19,11 +19,19 @@ Coloque na descrição: Previsão do pH de água com uma rede neural MLP a parti
 
 ## 📝 Resumo do projeto
 
+Como projeto final da disciplina de Redes Neurais e Algoritmos Genéticos, ministrada pelo Professor Daniel Roberto Cassar, o grupo formado pelos discentes Gabriel Martins, Maria Clara Lelis e Yasmin Shimizu, autoentitulados "Divisão Clareyamar", desenvolveu uma Rede Neural (RN) do tipo MLP para regressão utilizando o módulo Pytorch, a fim de prever o pH de amostras de água a partir de quantidades de diversos componentes químicos presentes nas amostras. Além disso, otimizamos os hiperparâmetros da rede MLP através do módulo optuna, que testa diferentes arquiteturas da rede, compara as métricas de performance dessas diferentes arquiteturas e retorna ao usuário os hiperparâmetros do modelo com a menor função de perda.
+
+O dataset usado no projeto foi obtido na plataforma Kaggle, e se refere a caracteríısticas de amostras de água obtidos de vários distritos. Os dados foram coletados do Telangana Open Data portal, do estado de Telangana, na India. O conjunto que utilizamos é referente ao ano de 2018, e contém 26 colunas, como: número de série (sno), Distrito, Vila, Latitude, Longitude, Produtos Químicos (como Ca, Mg, CO3 etc.), Dureza total da água, Total de sólidos dissolvidos, e as variáveis-alvo do dataset 'Classificação' e 'Classificação1'. Para a nossa aplicação de previsão do pH, iremos utilizar apenas as colunas de: TDS, CO3, HCO3, Cl, F, NO3, SO4, Na, K, Ca, Mg, RSC meq / L e pH.
+
+Separamos os dados em treino e teste, para verificar a performance do modelo que iremos aplicar. Porém, para a validação das diferentes arquiteturas testadas no processo de otimização, dividimos os dados de treino em treino e validação. Em seguida, testamos o melhor modelo encontrado nos dados de teste, e obtivemos sua métrica de performance. Ao final, obtivemos a curva de aprendizado do modelo, e comparamos os valores previstos com os reais. Além disso, classificamos os valores de pH entre: valores ideais para uso humano, valores abaixo do ideal e valores acima do ideal, segundo um documento da Organização Mundial da Saúde 
+
 ## ☀️🌊 Lore
 
 ## 🖇️Recursos Utilizados
 
 ## 💧Data Set
+
+O dataset usado no projeto foi obtido na plataforma *Kaggle*, um site de hospedagem de diversos datasets muito utilizado para obter dados para o treinamento de modelos de Machine Learning (ML). Os dados foram coletados do Telangana Open Data portal, do estado de Telangana, na India. Esses dados contêm amostras de água testadas de vários distritos. O conjunto que utilizamos é referente ao ano de 2018, e contém 26 colunas, como: número de série (sno), Distrito, Vila, Latitude, Longitude, Produtos Químicos (como Ca, Mg, CO3 etc.), Dureza total da água, Total de sólidos dissolvidos, e as variáveis-alvo do dataset 'Classificação' e 'Classificação1'. Para a nossa aplicação de previsão do pH, iremos utilizar apenas as colunas de: TDS, CO3, HCO3, Cl, F, NO3, SO4, Na, K, Ca, Mg, RSC  meq  / L e pH.
 
 ## ⚙️Redes Neurais MLP
 
@@ -32,6 +40,8 @@ Coloque na descrição: Previsão do pH de água com uma rede neural MLP a parti
 ## 📔Acesso ao projeto
 
 ## 🗂️ Referências 
+
+
 
 ## 🛐 Agradecimentos
 
