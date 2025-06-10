@@ -46,6 +46,11 @@ Utilizamos no projeto o dataset Water Quality Data [Telangana Groundwater], obti
 ## 🔢 Resultados
 
 ## 📔Acesso ao projeto
+Os arquivos presentes nesse repositório são:
+
+* <code>título do jupyter</code>:
+* <code>título do dataset </code>:
+* <code>README</code>: descrição geral do projeto
 
 O Notebook com os códigos para execução da Rede Neural estão armazenados nesse repositório e podem ser rodados em compiladores de Python como Jupyter Notebook, Visual Studio Code e Google Colab. Tanto a tabela de dados utilizados quanto o link para o site de armazenamento do dataset estão também neste repositório, basta fazer o download dos dados.
 
