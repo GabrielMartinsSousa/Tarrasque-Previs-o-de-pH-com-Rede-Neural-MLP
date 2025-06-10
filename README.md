@@ -15,7 +15,7 @@ Como projeto final da disciplina de Redes Neurais e Algoritmos Genéticos, minis
 
 O dataset usado no projeto foi obtido na plataforma Kaggle, e se refere a caracteríısticas de amostras de água obtidos de vários distritos. Os dados foram coletados do Telangana Open Data portal, do estado de Telangana, na India. O conjunto que utilizamos é referente ao ano de 2018, e contém 26 colunas, como: número de série (sno), Distrito, Vila, Latitude, Longitude, Produtos Químicos (como Ca, Mg, CO3 etc.), Dureza total da água, Total de sólidos dissolvidos, e as variáveis-alvo do dataset 'Classificação' e 'Classificação1'. Para a nossa aplicação de previsão do pH, iremos utilizar apenas as colunas de: TDS, CO3, HCO3, Cl, F, NO3, SO4, Na, K, Ca, Mg, RSC meq / L e pH.
 
-Separamos os dados em treino e teste, para verificar a performance do modelo que iremos aplicar. Porém, para a validação das diferentes arquiteturas testadas no processo de otimização, dividimos os dados de treino em treino e validação. Em seguida, testamos o melhor modelo encontrado nos dados de teste, e obtivemos sua métrica de performance. Ao final, obtivemos a curva de aprendizado do modelo, e comparamos os valores previstos com os reais. Além disso, classificamos os valores de pH entre: valores ideais para uso humano, valores abaixo do ideal e valores acima do ideal, segundo um documento da Organização Mundial da Saúde 
+Separamos os dados em treino e teste, para verificar a performance do modelo que iremos aplicar. Porém, para a validação das diferentes arquiteturas testadas no processo de otimização, dividimos os dados de treino em treino e validação. Em seguida, testamos o melhor modelo encontrado nos dados de teste, e obtivemos sua métrica de performance. Ao final, obtivemos a curva de aprendizado do modelo, e comparamos os valores previstos com os reais. Além disso, classificamos os valores de pH entre: valores ideais para uso humano, valores abaixo do ideal e valores acima do ideal, segundo um documento da Organização Mundial da Saúde. 
 
 ## ☀️🌊 Lore
 
@@ -37,22 +37,27 @@ Separamos os dados em treino e teste, para verificar a performance do modelo que
 
 <img src="https://github.com/user-attachments/assets/ac550461-c75f-40aa-ba05-6c9189de6825" alt="Texto Alternativo" width="103">
 
+## 📔Acesso ao projeto
+Os arquivos presentes nesse repositório são:
+
+* <code>CLAREYAMAR_X_Tarrasque_prev_agua.ipynb</code>: notebook contendo a implementação da rede com *Pytorch*, otimização de hiperparâmetros com *Optuna*, treinamento e previsão do pH de amostras de água.
+* <code>ground_water_quality_2018_post.csv</code>: planilha contendo os dados sobre qualidade de água utilizados.
+* <code>README.md</code>: descrição geral do projeto.
+
+O Notebook com os códigos para execução da Rede Neural estão armazenados nesse repositório e podem ser rodados em compiladores de Python como Jupyter Notebook, Visual Studio Code e Google Colab. Tanto a tabela de dados utilizados quanto o link para o site de armazenamento do dataset estão também neste repositório, basta fazer o download dos dados.
+
 ## 💧Data Set
 
-Utilizamos no projeto o dataset Water Quality Data [Telangana Groundwater], obtido na plataforma *Kaggle*, um site de hospedagem de diversos datasets muito utilizado para obter dados para o treinamento de modelos de Machine Learning (ML). Os dados foram coletados do Telangana Open Data portal, do estado de Telangana, na India. Esses dados contêm amostras de água testadas de vários distritos. O conjunto que utilizamos é referente ao ano de 2018, e contém 26 colunas, como: número de série (sno), Distrito, Vila, Latitude, Longitude, Produtos Químicos (como Ca, Mg, CO3 etc.), Dureza total da água, Total de sólidos dissolvidos, e as variáveis-alvo do dataset 'Classificação' e 'Classificação1'. Para a nossa aplicação de previsão do pH, iremos utilizar apenas as colunas de: TDS, CO3, HCO3, Cl, F, NO3, SO4, Na, K, Ca, Mg, RSC  meq  / L e pH. É possível acessar a página do dataset no Kaggle [aqui](https://www.kaggle.com/datasets/sivapriyagarladinne/telangana-post-monsoon-ground-water-quality-data)
+Utilizamos no projeto o dataset [***Water Quality** Data [Telangana Groundwater]*](https://www.kaggle.com/datasets/sivapriyagarladinne/telangana-post-monsoon-ground-water-quality-data), obtido na plataforma *Kaggle*, um site de hospedagem de diversos datasets muito utilizado para obter dados para o treinamento de modelos de Machine Learning (ML). Os dados foram coletados do Telangana Open Data portal, do estado de Telangana, na India. Esses dados contêm amostras de água testadas de vários distritos. O conjunto que utilizamos é referente ao ano de 2018, e contém 26 colunas, como: número de série (sno), Distrito, Vila, Latitude, Longitude, Produtos Químicos (como Ca, Mg, CO3 etc.), Dureza total da água, Total de sólidos dissolvidos, e as variáveis-alvo do dataset 'Classificação' e 'Classificação1'. Para a nossa aplicação de previsão do pH, iremos utilizar apenas as colunas:
+* `TDS`: concentração de sólidos totais dissolvidos (*Total Dissolved Solids*), influenciada tanto pela formação rochosa das nascentes quanto pela poluição humana;
+* `CO3`, `HCO3`, `Cl`, `F`, `NO3`, `SO4`, `Na`, `K`, `Ca`, `Mg`: concentração dos respectivos elementos presentes nas amostras analisadas;
+* `RSC meq/L`: concentração carbonato de sódio residual (*Residual Sodium Carbonate*), o excesso de carbonatos (CO3^2-) e bicarbonatos (HCO3^-) em relação a íons de cálcio (Ca²⁺) e magnésio (Mg²⁺); e
+* `pH`: concentração dos íons de hidrogênio em água --- o *target* previsto em nosso problema.
+
 
 ## ⚙️Redes Neurais MLP
 
 ## 🔢 Resultados
-
-## 📔Acesso ao projeto
-Os arquivos presentes nesse repositório são:
-
-* <code>título do jupyter</code>:
-* <code>título do dataset </code>:
-* <code>README.md</code>: descrição geral do projeto.
-
-O Notebook com os códigos para execução da Rede Neural estão armazenados nesse repositório e podem ser rodados em compiladores de Python como Jupyter Notebook, Visual Studio Code e Google Colab. Tanto a tabela de dados utilizados quanto o link para o site de armazenamento do dataset estão também neste repositório, basta fazer o download dos dados.
 
 ## 🗂️ Referências 
 
