@@ -1,4 +1,4 @@
-# Tarrasque-Previs-o-de-pH-com-Rede-Neural-MLP
+# Tarrasque Previsão de pH com Rede Neural MLP
 Amanhã farei esta bomba
 
 
