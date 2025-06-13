@@ -17,7 +17,9 @@ O dataset usado no projeto foi obtido na plataforma Kaggle, e se refere a caract
 
 Separamos os dados em treino e teste, para verificar a performance do modelo que iremos aplicar. Porém, para a validação das diferentes arquiteturas testadas no processo de otimização, dividimos os dados de treino em treino e validação. Em seguida, testamos o melhor modelo encontrado nos dados de teste, e obtivemos sua métrica de performance. Ao final, obtivemos a curva de aprendizado do modelo, e comparamos os valores previstos com os reais. Além disso, classificamos os valores de pH entre: valores ideais para uso humano, valores abaixo do ideal e valores acima do ideal, segundo um documento da Organização Mundial da Saúde. 
 
+<!--
 ## ☀️🌊 Lore
+-->
 
 ## 🖇️Recursos Utilizados
 
@@ -40,7 +42,7 @@ Separamos os dados em treino e teste, para verificar a performance do modelo que
 ## 📔Acesso ao projeto
 Os arquivos presentes nesse repositório são:
 
-* <code>CLAREYAMAR_X_Tarrasque_prev_agua.ipynb</code>: notebook contendo a implementação da rede com *Pytorch*, otimização de hiperparâmetros com *Optuna*, treinamento e previsão do pH de amostras de água.
+* <code>CLAREYAMAR_X_Tarrasque_pH_agua.ipynb</code>: notebook contendo a implementação da rede com *Pytorch*, otimização de hiperparâmetros com *Optuna*, treinamento e previsão do pH de amostras de água.
 * <code>ground_water_quality_2018_post.csv</code>: planilha contendo os dados sobre qualidade de água utilizados.
 * <code>README.md</code>: descrição geral do projeto.
 
@@ -58,6 +60,7 @@ Utilizamos no projeto o dataset [***Water Quality** Data [Telangana Groundwater]
 ## ⚙️Redes Neurais MLP
 
 ## 🔢 Resultados
+Com base na otimização de hiperparâmetros, treinamos uma rede com 12 camadas, com 69, 94, 12, 32, 29, 59, 98, 6, 87, 85, 50, e 95 neunônios, com taxa de aprendizado 0,003 e função de ativação PReLU. O RMSE obtido na previsão foi de 0,461 , o que é aceitável na escala de pH, entretando, considerando a magnitude dos dados, se mostrou insatisfatório, com todos os valores previstos próximos ao baseline. Algumas das abordagens possíveis para melhorar o desempenho na previsão é a obtenção de mais dados ou um dataset mais extenso, normalização dos dados, melhor seleção de atibutos, otimização do otimizador utilizado na rede, ou implementar técnicas como dropout ou early stopping na estrutura da rede. Assim, esperamos que a previsão realizada se assemelhe mais com dados reais.
 
 ## 🗂️ Referências 
 [1] WORLD HEALTH ORGANIZATION. pH in drinking-water: Background document for development of WHO guidelines for drinking-water quality. Geneva: WHO, 2022. Disponível em: https://cdn.who.int/media/docs/default-source/wash-documents/wash-chemicals/ph.pdf?sfvrsn=16b10656_4. Acesso em: 12 jun. 2025.
@@ -78,6 +81,7 @@ Utilizamos no projeto o dataset [***Water Quality** Data [Telangana Groundwater]
 
 
 ## 🛐 Agradecimentos
+Agradecemos ao colega e amigo Vitor Dreveck, pela dica dada para o espaço de busca utilizado na otimização dos hiperparâmetros da rede.
 
 ## 🧠 Contribuições dos Colaboradores
 
@@ -150,13 +154,13 @@ Utilizamos no projeto o dataset [***Water Quality** Data [Telangana Groundwater]
 
 
 #### Para o Projeto:
-* Gabriel Martins: (*Importação do dataset, tratamento de dados, ?implementação de early stopping e dropout?, treinamento e previsão da rede*).
-* Clara Lelis: (*Otimização de hiperparâmetros com optuna, treinamento e previsão da rede*).
-* Yasmin Shimizu: Adaptação da rede MLP para $n$ camadas, implementação da validação, (*treinamento e previsão da rede*), plot gráfico de resultados.
+* Gabriel Martins: Importação do dataset, tratamento de dados, ?implementação de early stopping e dropout?, treinamento e previsão da rede.
+* Clara Lelis: Otimização de hiperparâmetros com optuna, treinamento e previsão da rede.
+* Yasmin Shimizu: Adaptação da rede MLP para $n$ camadas, implementação da validação, treinamento e previsão da rede, plot gráfico de resultados.
 
 #### Para o Repositório GitHub:
 * Gabrel Martins: Documentação do README e upload de arquivos.
 * Clara Lelis: Documentação do README.
-* Yasmin Shimizu: Documentação do README.
+* Yasmin Shimizu: Documentação do README e upload de arquivos.
 
 **Orientação e Revisão:** Prof. Dr. Daniel R. Cassar.
