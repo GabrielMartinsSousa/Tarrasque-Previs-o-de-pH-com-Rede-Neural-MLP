@@ -154,7 +154,7 @@ Agradecemos ao colega e amigo Vitor Dreveck, pela dica dada para o espaço de bu
 
 
 #### Para o Projeto:
-* Gabriel Martins: Importação do dataset, tratamento de dados, ?implementação de early stopping e dropout?, treinamento e previsão da rede.
+* Gabriel Martins: Importação do dataset, tratamento de dados, treinamento e previsão da rede.
 * Clara Lelis: Otimização de hiperparâmetros com optuna, treinamento e previsão da rede.
 * Yasmin Shimizu: Adaptação da rede MLP para $n$ camadas, implementação da validação, treinamento e previsão da rede, plot gráfico de resultados.
 
