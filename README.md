@@ -60,7 +60,21 @@ Utilizamos no projeto o dataset [***Water Quality** Data [Telangana Groundwater]
 ## 🔢 Resultados
 
 ## 🗂️ Referências 
+[1] WORLD HEALTH ORGANIZATION. pH in drinking-water: Background document for development of WHO guidelines for drinking-water quality. Geneva: WHO, 2022. Disponível em: https://cdn.who.int/media/docs/default-source/wash-documents/wash-chemicals/ph.pdf?sfvrsn=16b10656_4. Acesso em: 12 jun. 2025.
 
+[2] STACK OVERFLOW. What is & how to use getattr in Python. Disponível em: https://stackoverflow.com/questions/4075190/what-is-how-to-use-getattr-in-python. Acesso em: 12 jun. 2025.
+
+[3] STACK OVERFLOW. How do I convert a Pandas DataFrame to a PyTorch tensor? Disponível em: https://stackoverflow.com/questions/50307707/how-do-i-convert-a-pandas-dataframe-to-a-pytorch-tensor. Acesso em: 12 jun. 2025.
+
+[4] OPTUNA. Optuna: An automatic hyperparameter optimization software framework. Disponível em: https://optuna.org/. Acesso em: 12 jun. 2025.
+
+[5] GEEKSFORGEEKS. Hyperparameter tuning with Optuna in PyTorch. Disponível em: https://www.geeksforgeeks.org/hyperparameter-tuning-with-optuna-in-pytorch/. Acesso em: 12 jun. 2025.
+
+[6] KAGGLE. Telangana Post-Monsoon Ground Water Quality Data. Disponível em: https://www.kaggle.com/datasets/sivapriyagarladinne/telangana-post-monsoon-ground-water-quality-data. Acesso em: 12 jun. 2025.
+
+[7] PYTORCH. PyTorch Documentation. Disponível em: https://docs.pytorch.org/docs/stable/index.html. Acesso em: 12 jun. 2025.
+
+[8] MEDIUM. Optuna: Hyperparameter optimization in PyTorch. Disponível em: https://medium.com/swlh/optuna-hyperparameter-optimization-in-pytorch-9ab5a5a39e77. Acesso em: 12 jun. 2025.
 
 
 ## 🛐 Agradecimentos
